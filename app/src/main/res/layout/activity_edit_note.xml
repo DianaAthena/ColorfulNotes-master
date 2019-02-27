@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".EditNoteActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/edit_note_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_below="@id/edit_note_activity_toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textMultiLine"
+        android:textColor="#607D8B"
+        android:textColorHint="#FFEB3B"
+        android:textStyle="bold"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/input_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/etTitle"
+        android:layout_gravity="top"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/text"
+        android:inputType="textMultiLine"
+        android:paddingStart="12dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="12dp"
+        android:textColor="#607D8B"
+        android:textColorHint="#FFEB3B"
+        tools:text=""
+        tools:ignore="Autofill" />
+</RelativeLayout>

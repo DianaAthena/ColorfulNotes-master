@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#D32F2F</color>
+    <color name="view_backg_color">#FFEB3B</color>
+
+    <!--  colors for dark theme -->
+    <color name="colorPrimary_dark">#303F9F</color>
+    <color name="colorAccent_dark" >#455A64</color>
+    <color name="colorPrimaryDark_dark" >#0097A7</color>
+</resources>
